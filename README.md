@@ -49,7 +49,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 - _TODO: Add whitelisted IP addresses_
-- The IP address that is allowed to access the Jump Box CM is the local address of your host machine
+- The IP address that is allowed to access the Jump Box CM is the local address of your host machine.
 
 Machines within the network can only be accessed by secure shell connection.
 - TODO: Which machine did you allow to access your ELK VM? What was its IP address?
@@ -70,7 +70,7 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - TODO: What is the main advantage of automating configuration with Ansible?
 
--The advantage of using an automated configuration with Ansible is that run multiple commands by inputting them in a playbook.
+-The advantage of using an automated configuration with Ansible is that it can run multiple commands by inputting them in a playbook.
 
 The playbook implements the following tasks:
 - TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
